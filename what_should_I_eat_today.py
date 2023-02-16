@@ -197,16 +197,14 @@ Here is work pipeline for "What should I eat today?"
 
 
 # Dayton
-latitude = 39.758948
-longitude = -84.191607
+latitude = # please enter your location latitude
+longitude = # please eneter your location longitude
 
-# Cincinnati 
-# latitude = 39.103119
-# longitude = -84.512016
 
-api_key = "kUHCKejIt3HOsQwtd-NuLcOHtaBaWQtKXXB5O4ESkDd3w2up0XuuM6OOfN-7ATM3EG9zWdelJ7akz46wnCjxfaG7vpOc_39mFP4GVRhjHha02xmV_cU0LmB3KZrtY3Yx"
-miles = 20
-limit = 30 # Note: the max limit could set upto 50, otherwise will return error.
+
+api_key = "Please use your own API"
+miles = 20 # please define your own miles
+limit = 30 # Note: the max limit could set up to 50, otherwise will return error.
 
 # convert miles into meters
 radius = miles_to_meters(miles= miles)
